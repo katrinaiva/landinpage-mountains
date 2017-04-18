@@ -13,26 +13,44 @@
 <body>
   <header class="header">
     <nav class="main-menu">
-      <div>
-        <img class="main-menu__logo" src="img">
+      <div class="conteiner clearfix">
+      <div class="main-menu__logo">
+        <img src="img/mountains-logo.png" alt="Логотип Mountains">
       </div>
       <ul class="main-menu__items">
-        <li class="main-menu__item">our story</li>
-        <li class="main-menu__item">services</li>
-        <li class="main-menu__item">work</li>
-        <li class="main-menu__item">journal</li>
-        <li class="main-menu__item">contact</li>
-        <li class="main-menu__item">work</li>
-        <li class="main-menu__item">journal</li>
+        <li class="main-menu__item">
+          <a class="main-menu__link" href="#" title="">our story</a>
+            </li>
+        <li class="main-menu__item main-menu__item--active">
+          <a class="main-menu__link--active" href="#" title="">services</a>
+            </li>
+        <li class="main-menu__item">
+          <a class="main-menu__link" href="#" title="">work</a>
+        </li>
+        <li class="main-menu__item">
+          <a class="main-menu__link" href="#" title="">journal</a>
+        </li>
+        <li class="main-menu__item">
+          <a class="main-menu__link" href="#" title="">contact</a>
+        </li>
+        <li class="main-menu__item">
+          <a class="main-menu__link" href="#" title="">work</a>
+        </li>
+        <li class="main-menu__item">
+          <a class="main-menu__link" href="#" title="">journal</a></li>
       </ul>
       <div class="main-menu__call">
-        <button type="button">call us</button>
+        <a class="main-menu__link main-menu__link--blue" href="telto:1 234 243 123" title="">call us</a>
+      </div>
       </div>
     </nav>
+    <div class="header__wrapper">
     <div class="header__content">
-      <img src="img/">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid</p>
-      <button class="header__content-btn" type="button">ORDER NOW</button>
+      <img src="img/about.png" alt="Путешествуй с нами">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing <br> elit, sed do eiusmod tempor incidid</p>
+<!--      <button class="header__content-btn" type="button">ORDER NOW</button>-->
+      <a class="header__content-link" href="#" title="ORDER NOW">ORDER NOW</a>
+    </div>
     </div>
   </header>
   <main>
@@ -40,14 +58,15 @@
       <div class="about__content">
         <h2 class="about__title">ABOUT US</h2>
         <p>Aliquam sed posuere urna, et gravida nisl. Praesent interdum nisl libero, pretium egestas purus eleifend vitae. Mauris suscipit vel lectus at luctus.</p>
-        <button class="about__btn" type="button">read more</button>
+<!--        <button class="about__btn" type="button">read more</button>-->
+        <a class="about__link" href="#" title="read more">read more</a>
       </div>
     </section>
     <section class="journal">
       <h2 class="our journal__title">our journal</h2>
       <div class="features">
         <div class="features__item">
-          <img src="img/" title="LOVE">
+          <img src="img/love.jpg" alt="LOVE">
         </div>
         <div class="features__item">
           <span>LOVE</span>
@@ -56,7 +75,7 @@
           <i>01</i>
         </div>
         <div class="features-item">
-          <img src="img/" alt="TREE">
+          <img src="img/tree.jpg" alt="TREE">
         </div>
         <div class="features__item">
           <span>TREE</span>
@@ -65,6 +84,7 @@
           <i>02</i>
         </div>
         <div class="features-item">
+          <img src="img/water.jpg" alt="TREE">
         </div>
         <div class="features__item">
           <span>WATER</span>
@@ -166,12 +186,12 @@ interdum nisl libero, pretium egestas purus eleifend vitae. Mauris suscipit vel 
     </section>
     <section class="gallery">
       <div class="gallery__wrapper">
-        <img src="img/" alt="Горное озеро">
-        <img src="img/" alt="Селфи-1">
-        <img src="img/" alt="Селфи-2">
-        <img src="img/" alt="Селфи-3">
-        <img src="img/" alt="Селфи-4">
-        <img src="img/" alt="Вид сверху">
+        <img src="img/galery1.jpg" alt="Горное озеро">
+        <img src="img/galery2.jpg" alt="Селфи-1">
+        <img src="img/galery3.jpg" alt="Селфи-2">
+        <img src="img/galery4.jpg" alt="Селфи-3">
+        <img src="img/galery5.jpg" alt="Селфи-4">
+        <img src="img/galery6.jpg" alt="Вид сверху">
       </div>
     </section>
     <section class="clients">
@@ -190,7 +210,7 @@ interdum nisl libero, pretium egestas purus eleifend vitae. Mauris suscipit vel 
         <blockquote class="reviews__item">
           <p class="reviews__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do  enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse </p>
           <footer class="reviews__footer">
-            <img src="img/" alt="Аватар">
+            <img src="img/avatar.png" alt="Аватар">
             <cite class="reviews__auhor-name">Pavliv Yaroslav</cite>
             <span>Web designer</span>
           </footer>
@@ -200,7 +220,7 @@ interdum nisl libero, pretium egestas purus eleifend vitae. Mauris suscipit vel 
         <blockquote class="reviews__item">
           <p class="reviews__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do  enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse </p>
           <footer class="reviews__footer">
-            <img src="img/" alt="Аватар">
+            <img src="img/avatar2.png" alt="Аватар">
             <cite class="reviews__auhor-name">John Scott </cite>
             <span>The Fringe</span>
           </footer>

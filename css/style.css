@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+/*  height: 100%;*/
+  overflow-x: hidden;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  color: #9a9a9a;
+  background: #ffffff;
+}
+
+.header {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.main-menu {
+  background-color: rgba(255, 255, 255, 0.23);
+}
+
+.main-menu__items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.conteiner {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.main-menu__logo {
+  float: left;
+  margin-left: 20px;
+  margin-right: 60px;
+  padding-top: 27px;
+}
+
+.main-menu__items {
+  float: left;
+  margin: 22px 0;
+  font-size: 0;
+}
+
+.main-menu__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 23px;
+}
+
+.main-menu__link--active {
+  border-bottom: 2px solid #36aeea;
+}
+
+.main-menu__link {
+  font-size: 12px;
+  line-height: 44px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #9daeb6;
+}
+
+.main-menu__call {
+  float: right;
+  margin: 20px 0;
+  border: 2px solid #36aeea;
+  border-radius: 5px;
+}
+
+.main-menu__link--blue {
+  padding: 14px 45px;
+  color: #36aeea;
+}
+
+
+.header__wrapper {
+  position: relative;
+  z-index: 2;
+  margin: 0 auto;
+  margin-top: 133px;
+  width: 1128px;
+  height: 319px;
+  border: 3px solid #ffffff;
+  border-top-color: transparent;
+}
+
+.header__wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  width: 733px;
+  height: 2px;
+  color: #ffffff;
+}
+
+.header__content {
+  padding-left: 34px;
+  padding-bottom: 36px;
+  padding-top: 44px;
+}
+
+.header__content p {
+  margin-top: 5px;
+  margin: 0;
+  font-size: 18px;
+  line-height: 29px;
+  color: #d5dadd;
+}
+
+.header__content-link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 76px;
+  line-height: 44px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #36aeea;
+  color: #ffffff;
+  border-radius: 5px;
+}
