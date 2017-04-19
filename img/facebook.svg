@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14.469" height="23.37" viewBox="0 0 14.469 23.37">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #eef1f9;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="956.531" y="7252.63" width="14.469" height="23.37" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dx="3.536" dy="3.536" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="1.732"/>
+      <feFlood result="flood" flood-color="#020303" flood-opacity="0.15"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+      <feGaussianBlur result="blur-2" stdDeviation="1" in="SourceAlpha"/>
+      <feFlood result="flood-2" flood-color="#fff"/>
+      <feComposite result="composite-2" operator="out" in2="blur-2"/>
+      <feOffset result="offset-2" dy="1"/>
+      <feComposite result="composite-3" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend-2" in2="blend"/>
+    </filter>
+  </defs>
+  <path id="facebook" class="cls-1" d="M961.9,7255.08h1.507v-2.46H961.56v0.01c-2.891.1-3.485,1.73-3.536,3.44h-0.006v1.97h-1.476v2.47h1.476v7.88h2.952v-7.88h2.214l0.438-2.47H960.97v-1.78A1.1,1.1,0,0,1,961.9,7255.08Z" transform="translate(-956.531 -7252.63)"/>
+</svg>

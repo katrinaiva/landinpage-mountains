@@ -19,25 +19,25 @@
       </div>
       <ul class="main-menu__items">
         <li class="main-menu__item">
-          <a class="main-menu__link" href="#" title="">our story</a>
+          <a class="main-menu__link" href="#about-us" title="">our story</a>
             </li>
-        <li class="main-menu__item main-menu__item--active">
-          <a class="main-menu__link--active" href="#" title="">services</a>
+        <li class="main-menu__item">
+          <a class="main-menu__link main-menu__link--active" href="#" title="">services</a>
             </li>
         <li class="main-menu__item">
           <a class="main-menu__link" href="#" title="">work</a>
         </li>
         <li class="main-menu__item">
-          <a class="main-menu__link" href="#" title="">journal</a>
+          <a class="main-menu__link" href="#journal" title="">journal</a>
         </li>
         <li class="main-menu__item">
-          <a class="main-menu__link" href="#" title="">contact</a>
+          <a class="main-menu__link" href="#contact" title="">contact</a>
         </li>
         <li class="main-menu__item">
-          <a class="main-menu__link" href="#" title="">work</a>
+          <a class="main-menu__link" href="#travel-with" title="">travel</a>
         </li>
         <li class="main-menu__item">
-          <a class="main-menu__link" href="#" title="">journal</a></li>
+          <a class="main-menu__link" href="#gallery" title="">Gallery</a></li>
       </ul>
       <div class="main-menu__call">
         <a class="main-menu__link main-menu__link--blue" href="telto:1 234 243 123" title="">call us</a>
@@ -49,22 +49,24 @@
       <img src="img/about.png" alt="Путешествуй с нами">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing <br> elit, sed do eiusmod tempor incidid</p>
 <!--      <button class="header__content-btn" type="button">ORDER NOW</button>-->
-      <a class="header__content-link" href="#" title="ORDER NOW">ORDER NOW</a>
+      <a class="header__content-link" href="#contact" title="ORDER NOW">ORDER NOW</a>
     </div>
     </div>
   </header>
-  <main>
-    <section class="about">
+  <main class="main">
+    <section class="about" id="about-us">
+      <div class="conteiner">
       <div class="about__content">
         <h2 class="about__title">ABOUT US</h2>
         <p>Aliquam sed posuere urna, et gravida nisl. Praesent interdum nisl libero, pretium egestas purus eleifend vitae. Mauris suscipit vel lectus at luctus.</p>
 <!--        <button class="about__btn" type="button">read more</button>-->
-        <a class="about__link" href="#" title="read more">read more</a>
+        <a class="about__link" href="#how-work" title="read more">read more</a>
+      </div>
       </div>
     </section>
-    <section class="journal">
-      <h2 class="our journal__title">our journal</h2>
-      <div class="features">
+    <section class="features conteiner">
+      <h2 class="features__title-top" id="journal">our journal</h2>
+      <div class="features__items clearfix">
         <div class="features__item">
           <img src="img/love.jpg" alt="LOVE">
         </div>
@@ -74,7 +76,7 @@
           <p>You know how to make best coffee in the universe? Or, maybe you’re very good in designing gloves? Tell everyone about your experience and skills.</p>
           <i>01</i>
         </div>
-        <div class="features-item">
+        <div class="features__item">
           <img src="img/tree.jpg" alt="TREE">
         </div>
         <div class="features__item">
@@ -83,7 +85,7 @@
           <p>The way to a successful brand is hard, but always very interesting. Share the full story of your project – from the very first day until now.</p>
           <i>02</i>
         </div>
-        <div class="features-item">
+        <div class="features__item">
           <img src="img/water.jpg" alt="TREE">
         </div>
         <div class="features__item">
@@ -93,50 +95,54 @@
           <i>03</i>
       </div>
       </div>
+<!--      </div>-->
     </section>
     <section class="forms">
+      <div class="forms__wrapper conteiner">
       <h2 class="forms__title">DO YOU WANNA GO?</h2>
-      <p>Aliquam sed posuere urna, et gravida nisl. Praesent 
+      <p>Aliquam sed posuere urna, et gravida nisl. Praesent <br>
 interdum nisl libero, pretium egestas purus eleifend vitae. Mauris suscipit vel lectus at luctus.</p>
       <form class="form" action="/echo" method="post">
         <input class="form__input" type="text" name="name" placeholder="Your name:">
         <input class="form__input" type="tel" name="tel" placeholder="Your phone:" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}">
-        <button class="form__btn" type="submit">ORDER NOW</button>
+        <button class="form__btn" type="submit">OrDER NOW</button>
       </form>
       <p class="forms__text">* Your data will not be transferred</p>
+      </div>
     </section>
-    <section class="advantages">
-      <h2 class="advantages__title">HOW WE WORK</h2>
-    <div class="advantages__wrapper">
+    <section class="advantages conteiner" >
+      <h2 class="advantages__title" id="how-work">HOW WE WORK</h2>
+    <div class="advantages__wrapper clearfix">
       <div class="advantages__wrapper-content">
-        <div><span>1</span></div>
-        <div></div>
+        <div class="advantages__circle"><span>1</span></div>
+        <div class="advantages__circle advantages__circle--big"></div>
         <h4 class="advantages__wrapper-title">Lorem ipsum dolor sit</h4>
         <p>amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
       </div>
       <div class="advantages__wrapper-content">
-        <div><span>1</span></div>
-        <div></div>
+        <div class="advantages__circle"><span>2</span></div>
+        <div class="advantages__circle advantages__circle--big"></div>
         <h4 class="advantages__wrapper-title">Lorem ipsum dolor sit</h4>
         <p>amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
       </div>
       <div class="advantages__wrapper-content">
-        <div><span>1</span></div>
-        <div></div>
+        <div class="advantages__circle"><span>3</span></div>
+        <div class="advantages__circle advantages__circle--big"></div>
         <h4 class="advantages__wrapper-title">Lorem ipsum dolor sit</h4>
         <p>amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
       </div>
       <div class="advantages__wrapper-content">
-        <div><span>1</span></div>
-        <div></div>
+        <div class="advantages__circle"><span>4</span></div>
+        <div class=" advantages__circle advantages__circle--big"></div>
         <h4 class="advantages__wrapper-title">Lorem ipsum dolor sit</h4>
         <p>amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
       </div>
     </div>
     </section>
-    <section class="travel">
-      <h2 class="travel__title">TRAVEL WITH US</h2>
-      <div class="travel__wrapper">
+    <section class="travel" id="travel-with">
+      <div class="travel__fon">
+      <div class="travel__wrapper conteiner clearfix">
+        <h2 class="travel__title">TRAVEL WITH US</h2>
         <article class="travel__places">
           <span class="travel__places-star"></span>
           <h3 class="travel__places-title">Carpathian</h3>
@@ -183,30 +189,62 @@ interdum nisl libero, pretium egestas purus eleifend vitae. Mauris suscipit vel 
           </div>
         </article>
       </div>
+      </div>
     </section>
     <section class="gallery">
-      <div class="gallery__wrapper">
-        <img src="img/galery1.jpg" alt="Горное озеро">
-        <img src="img/galery2.jpg" alt="Селфи-1">
-        <img src="img/galery3.jpg" alt="Селфи-2">
-        <img src="img/galery4.jpg" alt="Селфи-3">
-        <img src="img/galery5.jpg" alt="Селфи-4">
-        <img src="img/galery6.jpg" alt="Вид сверху">
+      <h2 class="gallery-title" id="gallery">Gallery</h2>
+      <div class="gallery__wrapper conteiner clearfix mosaicflow">
+        <div class="mosaicflow__column">
+          <div class="mosaicflow__item">
+            <img src="img/galery1.jpg" width="263" height="343" alt="Горное озеро">
+          </div>
+          <div class="mosaicflow__item">
+            <img src="img/galery4.jpg" width="263" height="281" alt="Селфи-2">
+          </div>
+        </div>
+        <div class="mosaicflow__column">
+          <div class="mosaicflow__item">
+            <img src="img/galery2.jpg" width="361" height="243" alt="Селфи-1">
+          </div>
+          <div class="mosaicflow__item">
+            <img src="img/galery5.jpg" width="361" height="381" alt="Селфи-4">
+          </div>
+        </div>
+        <div class="mosaicflow__column">
+          <div class="mosaicflow__item">
+            <img src="img/galery3.jpg" width="457" height="343" alt="Селфи-3">
+          </div>
+          <div class="mosaicflow__item">
+            <img src="img/galery6.jpg"  width="457" height="281" alt="Вид сверху">
+          </div>
+        </div>
       </div>
     </section>
     <section class="clients">
-      <div class="clients__logo">
-        <img src="img/" alt="Логотип slack">
-        <img src="img/" alt="Логотип adobe">
-        <img src="img/" alt="Логотип google">
-        <img src="img/" alt="Логотип facebook">
-        <img src="img/" alt="Логотип spotify">
-        <img src="img/" alt="Логотип nike">
+      <div class="clients__logos conteiner clearfix">
+        <div class="clients__logo">
+        <img class="clients__logo-img" src="img/clients.png" alt="Логотип slack">
+        </div>
+        <div class="clients__logo">
+        <img  class="clients__logo-img" src="img/clients2.png" alt="Логотип adobe">
+        </div>
+        <div class="clients__logo">
+        <img class="clients__logo-img" src="img/clients3.png" alt="Логотип google">
+        </div>
+        <div class="clients__logo">
+        <img class="clients__logo-img" src="img/clients4.png" alt="Логотип facebook">
+        </div>
+        <div class="clients__logo">
+        <img class="clients__logo-img" src="img/clients6.png" alt="Логотип spotify">
+        </div>
+        <div class="clients__logo">
+        <img class="clients__logo-img" src="img/clients7.png" alt="Логотип nike">
+        </div>
       </div>
     </section>
     <section class="reviews">
       <h2 class="reviews__title">our Clients say</h2>
-      <div class="reviews__items">
+      <div class="reviews__items conteiner clearfix">
         <blockquote class="reviews__item">
           <p class="reviews__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do  enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse </p>
           <footer class="reviews__footer">
@@ -215,34 +253,39 @@ interdum nisl libero, pretium egestas purus eleifend vitae. Mauris suscipit vel 
             <span>Web designer</span>
           </footer>
         </blockquote>
-      </div>
-      <div class="reviews__items">
         <blockquote class="reviews__item">
           <p class="reviews__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do  enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse </p>
           <footer class="reviews__footer">
             <img src="img/avatar2.png" alt="Аватар">
+            
             <cite class="reviews__auhor-name">John Scott </cite>
-            <span>The Fringe</span>
+              <span>The Fringe</span>
           </footer>
         </blockquote>
-      </div>
+        </div>
     </section>
-    <section class="contacts">
-      <h2 class="contacts__title"></h2>
-      <p></p>
-      <form class="form" action="/" method="post">
-        <input class="form__input" type="text" name="name" placeholder="Name:">
-        <input class="form__input" type="tel" name="tel" placeholder="Phone:" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}">
-        <input class="form__input" type="email" name="email" placeholder="E-mail">
-        <button class="form__btn" type="submit">send</button>
+    <section class="contacts" id="contact">
+      <h2 class="contacts__title">CONTACTS</h2>
+      <p>Sign up for our newsletter to receive updates</p>
+      <form class="contacts__form" action="/" method="post">
+        <div class="form__input-wpapper">
+          <input class="contacts__form-input" type="text" name="name" placeholder="Name:">
+        </div>
+        <div class="form__input-wpapper">
+        <input class="contacts__form-input" type="tel" name="tel" placeholder="Phone:" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}">
+        </div>
+        <div class="form__input-wpapper">
+        <input class="contacts__form-input" type="email" name="email" placeholder="E-mail">
+        </div>
+        <button class="contacts__form-btn" type="submit">send</button>
       </form>
     </section>
   </main>
-  <footer class="footer">
-    <div class="footer__copyright">
+  <footer class="footer conteiner clearfix">
+    <div class="footer__copyright layout">
       <p>All rights reserved 2015</p>
     </div>
-    <div class="footer__social">
+    <div class="footer__social layout">
       <a class="social-btn social-tv" href="#">
         <span>Твитер</span>
       </a>
@@ -253,9 +296,13 @@ interdum nisl libero, pretium egestas purus eleifend vitae. Mauris suscipit vel 
         <span>В контакте</span>
       </a>
     </div>
-    <div class="footer__tel">
+    <div class="footer__tel layout">
     <a href="telto:1 234 243 123">1 234 243 123</a>
     </div>
   </footer>
+<!--
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="/js/jquery.mosaicflow.js"></script>
+-->
 </body>
 </html>
